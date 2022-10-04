@@ -11,7 +11,7 @@ function App() {
     <div className="App">
      <ToastContainer/>
      <Routes>
-       <Route exact path="/" component ={Crud}/>
+       <Route exact path="/" element ={<Crud/>}/>
        <Route exact path="/update/:id" component ={Update}/>
      </Routes>
     </div>
