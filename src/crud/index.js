@@ -58,6 +58,11 @@ return (
             ) : (
                 <>
                 <h4 className='text-center'> CRUD with JSON Server</h4>
+                   <FormElement
+                 handleSubmit={handleSubmit}
+                 name={name}
+                 setName={setName}
+                   /> 
               {names && 
             names.map((t)=>(
                <div className="border row mx-2 align-items-center" key={t.id}>
